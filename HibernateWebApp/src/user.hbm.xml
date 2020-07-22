@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="User" table="CUSTOMER">
+		<id column="ID" name="id" type="java.lang.Integer"><generator class="increment"/></id>
+		<property column="F_NAME" name="f_Name" type="java.lang.String" />
+		<property column="L_NAME" name="l_Name" type="java.lang.String" />
+		<property column="USER_NAME" name="userName" type="java.lang.String" />
+		<property column="PASSWORD" name="password1" type="string" />
+		<property column="EMAIL" name="email" type="java.lang.String" />
+		<property column="PHONE" name="phone" type="java.lang.String" />
+		<property column="QUESTION" name="question" type="java.lang.String" />
+	</class>
+</hibernate-mapping>
