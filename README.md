@@ -1,4 +1,4 @@
-# Web-Hibernate-App 
+# Sabik's Bank Web Login
 
 ##About: 
 This Web-Hibernate-App was a final project for my Java Class, the goal for the project was to implement as much knowledge as possible to show my understanding on the topics learned throughout the semester: 
